@@ -1,17 +1,15 @@
-.App {
-  text-align: center;
+body {
+	background: #141414;
+	color: #ffffff;
 }
-body{
-  background: #513252;
-  color: aliceblue;
-}
+
 .movie-app > .row {
 	overflow-x: auto;
 	flex-wrap: nowrap;
 }
 
 .image-container {
-	position: relative;
+	position:relative;
 	transition: transform 0.2s;
 }
 
@@ -26,8 +24,8 @@ body{
 
 .overlay {
 	position: absolute;
-	background: rgba(88, 29, 190, 0.342);
-	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	width: 23.5%;
 	transition: 0.5s ease;
 	opacity: 0;
 	bottom: 0;
